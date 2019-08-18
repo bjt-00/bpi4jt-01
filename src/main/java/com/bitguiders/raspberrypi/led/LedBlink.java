@@ -1,10 +1,10 @@
-package bpi4jt_01.bpi4jt_01;
+package com.bitguiders.raspberrypi.led;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class LedBlink 
 {
     public static void main( String[] args )
     {
