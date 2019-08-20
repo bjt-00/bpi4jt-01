@@ -13,7 +13,7 @@ public class LedBlink
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "LedBlink" );
         try {
     	    /** create gpio controller */
     	    final GpioController gpio = GpioFactory.getInstance();
@@ -26,6 +26,7 @@ public class LedBlink
     	    /** keep program running until user aborts (CTRL-C) */
     	    while (true) {
     		Thread.sleep(500);
+    		System.out.println("Blinking...");
     	    }
 
     	} catch (Exception e) {
