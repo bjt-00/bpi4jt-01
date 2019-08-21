@@ -20,6 +20,8 @@ public class LedBlink
     		Thread.sleep(500);
     		System.out.println(i+"-Blinking...");
     	    }
+    	    ledPin.low();
+    	    gpio.shutdown();
 
     	} catch (Exception e) {
     	    e.printStackTrace();
